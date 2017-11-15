@@ -9,19 +9,11 @@ import dao.TestDAO;
 public class TestServiceImpl implements TestService {
 	
 	@Autowired
-	TestDAO testDAO;
+	private TestDAO testDAO;
 	
 	@Override
 	public String getName() {
-		return getTestDAO().getName();
-	}
-
-	public TestDAO getTestDAO() {
-		return testDAO;
-	}
-
-	public void setTestDAO(TestDAO testDAO) {
-		this.testDAO = testDAO;
+		return testDAO.getName();
 	}
 
 }

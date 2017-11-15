@@ -7,7 +7,7 @@ public class TestDAOImpl implements TestDAO {
 
 	@Override
 	public String getName() {
-		return "ban Cuong";
+		return "Do Hung Cuong";
 		
 	}
 

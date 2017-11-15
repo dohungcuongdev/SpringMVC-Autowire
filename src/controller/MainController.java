@@ -22,7 +22,7 @@ import service.TestService;
 public class MainController {
 	
 	@Autowired
-	TestService testService;
+	private TestService testService;
 
 
     //index
